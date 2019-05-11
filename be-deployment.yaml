@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: gcloudtest-be
-        image: gcr.io/deployment-test-239915/gcloud-test-be
+        image: gcr.io/deployment-test-239915/gcloud-test-be:v6
         resources:
           requests:
             cpu: 100m
