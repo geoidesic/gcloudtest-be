@@ -18,3 +18,10 @@ app.get("/test", cors(corsOptions), (req, res, next) => {
   console.log(req)
   console.log(res);
 });
+
+app.get("/", cors(corsOptions), (req, res, next) => {
+ res.json({"success": true, "message": "root booya!"});
+}, (req, res, next) => {
+  console.log(req)
+  console.log(res);
+});
