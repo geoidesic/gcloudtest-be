@@ -3,7 +3,7 @@ var cors = require("cors");
 var app = express();
 
 var corsOptions = {
-  origin: 'http://34.66.99.160',
+  origin: '*',
   optionsSuccessStatus: 200
 };
 
