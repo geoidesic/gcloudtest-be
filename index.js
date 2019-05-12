@@ -3,10 +3,9 @@ var cors = require("cors");
 var app = express();
 
 var corsOptions = {
-  origin: 'fe',
+  origin: 'http://34.66.99.160',
   optionsSuccessStatus: 200
 };
-
 
 app.listen(3000, () => {
  console.log("Server running on port 3000");
